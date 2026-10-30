@@ -1,0 +1,221 @@
+================================================================================
+FILE: dlls/xinput1_4.dll
+SIZE: 27,648 bytes
+SHA-256: 2fb034b85869266ebb662342d34691a03665987e73f5a37abac44b068c482561
+MACHINE: 0x8664 (x86_64 / PE32+)
+================================================================================
+
+[SECTIONS]
+  - .text      VirtualAddress=0x1000     VirtualSize=0x34a7     RawSize=13824      RawPtr=0x400
+  - .rdata     VirtualAddress=0x5000     VirtualSize=0x24e0     RawSize=9728       RawPtr=0x3a00
+  - .data      VirtualAddress=0x8000     VirtualSize=0x7d0      RawSize=512        RawPtr=0x6000
+  - .pdata     VirtualAddress=0x9000     VirtualSize=0x45c      RawSize=1536       RawPtr=0x6200
+  - .rsrc      VirtualAddress=0xa000     VirtualSize=0x1e0      RawSize=512        RawPtr=0x6800
+  - .reloc     VirtualAddress=0xb000     VirtualSize=0x54       RawSize=512        RawPtr=0x6a00
+
+[EXPORT TABLE (7 exported functions)]
+  01. RVA 0x18f0     XInputEnable
+  02. RVA 0x1930     XInputGetAudioDeviceIds
+  03. RVA 0x19a0     XInputGetBatteryInformation
+  04. RVA 0x1a10     XInputGetCapabilities
+  05. RVA 0x1a70     XInputGetKeystroke
+  06. RVA 0x1ad0     XInputGetState
+  07. RVA 0x1d10     XInputSetState
+
+[EMBEDDED STRINGS IN .rdata (0x5000 .. 0x7600)]
+  t$ WH
+  Unknown exception
+  bad array new length
+  string too long
+  \xinput1_4.dll
+  XInputGetState
+  XInputSetState
+  XInputGetCapabilities
+  XInputEnable
+  XInputGetAudioDeviceIds
+  XInputGetBatteryInformation
+  XInputGetKeystroke
+  steam.exe
+  InitializeModule
+  [DllLoader] 
+  ERROR: %s
+  appdata\roaming\syctool
+  CryptAcquireContextW failed: 0x%08X
+  CryptCreateHash failed: 0x%08X
+  CryptHashData failed: 0x%08X
+  CryptGetHashParam failed: 0x%08X
+  Part_C computed (SHA256 of path)
+  Full key derived: Part_A XOR Part_B(from file) XOR Part_C
+  CryptImportKey failed: 0x%08X
+  Warning: CryptSetKeyParam(HP_MODE) failed
+  Warning: CryptSetKeyParam(HP_IV) failed
+  CryptDecrypt failed: 0x%08X
+  AES-256-CBC decryption successful: %u bytes
+  PE data too small
+  Invalid PE signature (not MZ)
+  Invalid PE header offset: 0x%08X
+  Invalid PE signature (not PE\0\0)
+  Only x64 (AMD64) architecture supported: 0x%04X
+  Not a DLL file (missing DLL characteristic)
+  PE structure validated: Machine=0x%04X, Sections=%u
+  SHGetFolderPathW failed: 0x%08X
+  Encrypted DLL path: %S
+  Failed to open file: 0x%08X
+  GetFileSizeEx failed: 0x%08X
+  File too large: %lld bytes
+  File too small: %lld bytes (min 36)
+  ReadFile failed: 0x%08X
+  ReadFile incomplete: %u != %zu
+  File read: %u bytes
+  GetTempPathW failed: 0x%08X
+  GetTempFileNameW failed: 0x%08X
+  CreateFileW failed for temp file: 0x%08X
+  WriteFile failed: 0x%08X
+  WriteFile incomplete: %u != %zu
+  LoadLibraryW failed: Win32=0x%08X (%u)
+  PE module loaded via LoadLibraryW: %p
+  === LoadEncryptedDll started (v2.1 No HMAC) ===
+  File too small: %zu bytes (min %zu)
+  Invalid file magic: %02X%02X%02X%02X
+  File magic verified: OST\x01
+  File structure: Magic(4) + Part_B(32) + Ciphertext(%zu)
+  File Part_B: %02X%02X%02X%02X...
+  Full Key: %02X%02X%02X%02X...
+  AES-256-CBC decryption: %zu -> %zu bytes
+  === LoadEncryptedDll succeeded ===
+  vector too long
+  bad allocation
+  .text$di
+  .text$mn
+  .text$mn$00
+  .text$x
+  .text$yd
+  .idata$5
+  .00cfg
+  .CRT$XCA
+  .CRT$XCU
+  .CRT$XCZ
+  .CRT$XIA
+  .CRT$XIZ
+  .CRT$XPA
+  .CRT$XPZ
+  .CRT$XTA
+  .CRT$XTZ
+  .rdata
+  .rdata$r
+  .rdata$voltmd
+  .rdata$zzzdbg
+  .rtc$IAA
+  .rtc$IZZ
+  .rtc$TAA
+  .rtc$TZZ
+  .xdata
+  .xdata$x
+  .edata
+  .idata$2
+  .idata$3
+  .idata$4
+  .idata$6
+  .data
+  .data$r
+  .data$rs
+  .pdata
+  .rsrc$01
+  .rsrc$02
+  xinput1_4.dll
+  XInputEnable
+  XInputGetAudioDeviceIds
+  XInputGetBatteryInformation
+  XInputGetCapabilities
+  XInputGetKeystroke
+  XInputGetState
+  XInputSetState
+
+
+================================================================================
+FILE: dlls/cl.dll
+SIZE: 3,756,336 bytes
+SHA-256: 670de770d637fd85a9191833a4daf7893127389ac72a9fe602a71a5b31f28389
+MACHINE: 0x8664 (x86_64 / PE32+)
+================================================================================
+
+[SECTIONS]
+  - .text      VirtualAddress=0x1000     VirtualSize=0x151d1b   RawSize=0          RawPtr=0x0
+  - .rdata     VirtualAddress=0x153000   VirtualSize=0x49160    RawSize=0          RawPtr=0x0
+  - .data      VirtualAddress=0x19d000   VirtualSize=0x7278     RawSize=0          RawPtr=0x0
+  - .pdata     VirtualAddress=0x1a5000   VirtualSize=0xa7e8     RawSize=0          RawPtr=0x0
+  - .M>3       VirtualAddress=0x1b0000   VirtualSize=0x28d7b7   RawSize=0          RawPtr=0x0
+  - .+XM       VirtualAddress=0x43e000   VirtualSize=0x3d98     RawSize=15872      RawPtr=0x400
+  - .UcG       VirtualAddress=0x442000   VirtualSize=0x38e8f4   RawSize=3729920    RawPtr=0x4200
+  - .rsrc      VirtualAddress=0x7d1000   VirtualSize=0x1d5      RawSize=512        RawPtr=0x392c00
+  - .reloc     VirtualAddress=0x7d2000   VirtualSize=0xb0       RawSize=512        RawPtr=0x392e00
+
+[EXPORT TABLE (20 exported functions)]
+  01. RVA 0xe1600    CR_AddApp
+  02. RVA 0xe1610    CR_DrainPlaytimeUpdates
+  03. RVA 0xe1630    CR_EnableStatsSync
+  04. RVA 0xe1670    CR_GetAchievements
+  05. RVA 0xe1850    CR_GetPlaytime
+  06. RVA 0xe18f0    CR_HandleCloudRpc
+  07. RVA 0xe2430    CR_InitCloudSave
+  08. RVA 0xe2760    CR_InstallGamesPlayedHookOnly
+  09. RVA 0xe2790    CR_InstallVtableHooks
+  10. RVA 0xe27c0    CR_IsApp
+  11. RVA 0xe27d0    CR_NotifyAppRunning
+  12. RVA 0xe2850    CR_NotifyStatsStored
+  13. RVA 0xe28b0    CR_NotifyStatsStoredFrom
+  14. RVA 0xe2910    CR_RemoveApp
+  15. RVA 0xe2950    CR_SetAccountId
+  16. RVA 0xe2960    CR_SetApps
+  17. RVA 0xe2a90    CR_SetFunctionTable
+  18. RVA 0xe2c70    CR_Shutdown
+  19. RVA 0xe0e90    CloudOnSendPkt
+  20. RVA 0x9d750    CloudRedirect_CliMain
+
+
+================================================================================
+FILE: dlls/ol.dll
+SIZE: 1,409,024 bytes
+SHA-256: ef93181692a91b0e39a0839b98c7eec6cbc24e7f45ca5c650319fae7a4d751b7
+MACHINE: 0x8664 (x86_64 / PE32+)
+================================================================================
+
+[SECTIONS]
+  - .text      VirtualAddress=0x1000     VirtualSize=0x1572d    RawSize=0          RawPtr=0x0
+  - .rdata     VirtualAddress=0x17000    VirtualSize=0xb172     RawSize=0          RawPtr=0x0
+  - .data      VirtualAddress=0x23000    VirtualSize=0x1cc8     RawSize=0          RawPtr=0x0
+  - .pdata     VirtualAddress=0x25000    VirtualSize=0x15a8     RawSize=0          RawPtr=0x0
+  - .detourc   VirtualAddress=0x27000    VirtualSize=0x21f0     RawSize=0          RawPtr=0x0
+  - .detourd   VirtualAddress=0x2a000    VirtualSize=0x18       RawSize=0          RawPtr=0x0
+  - .fptable   VirtualAddress=0x2b000    VirtualSize=0x100      RawSize=0          RawPtr=0x0
+  - .4X0       VirtualAddress=0x2c000    VirtualSize=0x8ed9f    RawSize=0          RawPtr=0x0
+  - .k.?       VirtualAddress=0xbb000    VirtualSize=0x308      RawSize=1024       RawPtr=0x400
+  - .y$`       VirtualAddress=0xbc000    VirtualSize=0x1573dc   RawSize=1405952    RawPtr=0x800
+  - .rsrc      VirtualAddress=0x214000   VirtualSize=0x1d5      RawSize=512        RawPtr=0x157c00
+  - .reloc     VirtualAddress=0x215000   VirtualSize=0xac       RawSize=512        RawPtr=0x157e00
+
+[EXPORT TABLE (0 exported functions)]
+
+
+================================================================================
+FILE: syc_decrypted.dll
+SIZE: 13,252,608 bytes
+SHA-256: 50c17d2e69bcc9c25e1a07be518b0f6d12ad016ca3f61dcdc27b859af0141125
+MACHINE: 0x8664 (x86_64 / PE32+)
+================================================================================
+
+[SECTIONS]
+  - .text      VirtualAddress=0x1000     VirtualSize=0x101d03   RawSize=0          RawPtr=0x0
+  - .rdata     VirtualAddress=0x103000   VirtualSize=0x65172    RawSize=0          RawPtr=0x0
+  - .data      VirtualAddress=0x169000   VirtualSize=0x15f728   RawSize=0          RawPtr=0x0
+  - .pdata     VirtualAddress=0x2c9000   VirtualSize=0xccc0     RawSize=0          RawPtr=0x0
+  - .detourc   VirtualAddress=0x2d6000   VirtualSize=0x21f0     RawSize=0          RawPtr=0x0
+  - .detourd   VirtualAddress=0x2d9000   VirtualSize=0x18       RawSize=0          RawPtr=0x0
+  - .UC'       VirtualAddress=0x2da000   VirtualSize=0x7bacce   RawSize=0          RawPtr=0x0
+  - .@Q|       VirtualAddress=0xa95000   VirtualSize=0x10250    RawSize=66560      RawPtr=0x400
+  - .=|K       VirtualAddress=0xaa6000   VirtualSize=0xc9281c   RawSize=13183488   RawPtr=0x10800
+  - .rsrc      VirtualAddress=0x1739000  VirtualSize=0x2f8      RawSize=1024       RawPtr=0xca3200
+  - .reloc     VirtualAddress=0x173a000  VirtualSize=0xc0       RawSize=512        RawPtr=0xca3600
+
+[EXPORT TABLE (0 exported functions)]
+
